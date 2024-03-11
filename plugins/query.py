@@ -34,10 +34,10 @@ async def handle_Query(bot: Client, query: CallbackQuery):
     if data == "help":
 
         HelpBtn = [
-            [InlineKeyboardButton(text='Tᴀʀɢᴇᴛ 🎯', callback_data='targetchnl'), InlineKeyboardButton
-                (text='Dᴇʟᴇᴛᴇ Cᴏɴғɪɢ ❌', callback_data='delete_conf')],
-            [InlineKeyboardButton(text='Tɢ Aᴄᴄᴏᴜɴᴛs 👥', callback_data='account_config'),
-             InlineKeyboardButton(text='⟸ Bᴀᴄᴋ', callback_data='home')]
+            [InlineKeyboardButton(text='☞ Tᴀʀɢᴇᴛ ☜', callback_data='targetchnl'), InlineKeyboardButton
+                (text='☞ Dᴇʟᴇᴛᴇ Cᴏɴғɪɢ ☜', callback_data='delete_conf')],
+            [InlineKeyboardButton(text='☞ Tɢ Aᴄᴄᴏᴜɴᴛs ☜', callback_data='account_config'),
+             InlineKeyboardButton(text='☞ Bᴀᴄᴋ ☜', callback_data='home')]
         ]
 
         await query.message.edit(text=Txt.HELP_MSG, reply_markup=InlineKeyboardMarkup(HelpBtn))
@@ -63,23 +63,23 @@ async def handle_Query(bot: Client, query: CallbackQuery):
 # Used Space: <code>{used} ({disk_usage}%)</code>
 # Free Space: <code>{free}</code> """
 
-            await msg.edit_text(text=ms_g, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text='⟸ Bᴀᴄᴋ', callback_data='home')]]))
+            await msg.edit_text(text=ms_g, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text='☞ Bᴀᴄᴋ ☜', callback_data='home')]]))
         except Exception as e:
             print('Error on line {}'.format(
                 sys.exc_info()[-1].tb_lineno), type(e).__name__, e)
 
     elif data == "about":
         botuser = await bot.get_me()
-        await query.message.edit(text=Txt.ABOUT_MSG.format(botuser.username, botuser.username), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text='⟸ Bᴀᴄᴋ', callback_data='home')]]))
+        await query.message.edit(text=Txt.ABOUT_MSG.format(botuser.username, botuser.username), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text='☞ Bᴀᴄᴋ ☜', callback_data='home')]]))
 
     elif data == "home":
         Btn = [
-            [InlineKeyboardButton(text='❗Hᴇʟᴘ', callback_data='help'), InlineKeyboardButton(
-                text='🌀Sᴇʀᴠᴇʀ Sᴛᴀᴛs', callback_data='server')],
-            [InlineKeyboardButton(text='🌻Uᴘᴅᴀᴛᴇs', url='https://t.me/ALLTYPECC'),
-             InlineKeyboardButton(text='🌨️Aʙᴏᴜᴛ', callback_data='about')],
-            [InlineKeyboardButton(text='❄️Dᴇᴠᴇʟᴏᴘᴇʀ',
-                                  url='https://t.me/iam_daxx')]
+            [InlineKeyboardButton(text='☞ Hᴇʟᴘ ☜', callback_data='help'), InlineKeyboardButton(
+                text='☞ Sᴇʀᴠᴇʀ Sᴛᴀᴛs ☜', callback_data='server')],
+            [InlineKeyboardButton(text='☞ Uᴘᴅᴀᴛᴇs ☜', url='https://t.me/BRANDED_PAID_CC'),
+             InlineKeyboardButton(text='☞ Aʙᴏᴜᴛ ☜', callback_data='about')],
+            [InlineKeyboardButton(text='☞ Dᴇᴠᴇʟᴏᴘᴇʀ ☜',
+                                  url='https://t.me/BRANDEDKING82')]
         ]
 
         await query.message.edit(text=Txt.START_MSG.format(query.from_user.mention), reply_markup=InlineKeyboardMarkup(Btn))
