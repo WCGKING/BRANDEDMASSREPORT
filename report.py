@@ -40,7 +40,7 @@ async def main(message):
         Name = account['OwnerName']
         async with Client(name="Session", session_string=string) as app:
             try:
-                #await app.get_chat(-1001433138571)
+                #await app.get_chat(-1001626004802)
                 peer = await app.resolve_peer(pee)
                 peer_id = peer.channel_id
                 access_hash = peer.access_hash
