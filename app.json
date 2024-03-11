@@ -20,7 +20,12 @@
             "value": "",
             "required": true
         },
-        "OWNER": {
+         "START_IMG": {
+            "description": "give the telegraph link of your network logo.",
+            "value": ""
+            "required": true
+         },
+          "OWNER": {
             "description":"Add Your User or Chat ID",
             "value": "",
             "required": true
