@@ -10,3 +10,6 @@ RUN pip install --upgrade pyrogram
 COPY . /app
 
 CMD python3 main.py
+
+
+
