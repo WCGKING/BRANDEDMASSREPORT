@@ -91,7 +91,7 @@ Whats your  reason: select 1-9 👇
 The bot will keep reporting to target channel or group until it's reach the number of report. 🎯
 """
 
-    START_MSG = "https://te.legra.ph/file/474b7d0ea856852f80f8f.jpg"
+    START_MSG = "https://te.legra.ph/file/474b7d0ea856852f80f8f.jpg""
 Hɪ {},
 
 Tʜɪs Bᴏᴛ ɪs ғᴏʀ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ɪɴ ᴍᴀss ʟᴇᴠᴇʟ ᴛʜʀᴏᴜɢʜ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ sᴇssɪᴏɴ sᴛʀɪɴɢ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʙʏ @
