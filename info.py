@@ -99,7 +99,7 @@ Tʜɪs Bᴏᴛ ɪs ғᴏʀ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀ�
 Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ :- @BRANDEDKING82
 """
 
-    HELP_MSG = """
+HELP_MSG = """
 🔆 HELP
 
 📚 Available commands:
