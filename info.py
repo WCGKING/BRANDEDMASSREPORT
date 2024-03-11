@@ -26,7 +26,7 @@ class Txt(object):
     SEND_TARGET_CHANNEL = """
 ( SEND THE TARGET CHANNEL LINK or USERNAME)
 
-☛ For e.g :- <code> @ </code> or <code> https:/t.me/iam_daxx </code>
+☛ For e.g :- <code> @ </code> or <code> https:/t.me/BRANDEDKING82 </code>
 """
 
     SEND_SESSION_MSG = """
@@ -91,7 +91,7 @@ Whats your  reason: select 1-9 👇
 The bot will keep reporting to target channel or group until it's reach the number of report. 🎯
 """
 
-    START_MSG = "https://te.legra.ph/file/474b7d0ea856852f80f8f.jpg""
+    START_MSG = """
 Hɪ {},
 
 Tʜɪs Bᴏᴛ ɪs ғᴏʀ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ ɪɴ ᴍᴀss ʟᴇᴠᴇʟ ᴛʜʀᴏᴜɢʜ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ sᴇssɪᴏɴ sᴛʀɪɴɢ ᴡʜɪᴄʜ ʏᴏᴜ ᴄᴀɴ ɢᴇɴᴇʀᴀᴛᴇ ʙʏ @
