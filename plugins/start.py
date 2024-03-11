@@ -10,9 +10,9 @@ from info import Config, Txt
 async def handle_start(bot:Client, message:Message):
 
     Btn = [
-        [InlineKeyboardButton(text='❗Hᴇʟᴘ', callback_data='help'), InlineKeyboardButton(text='🌀Sᴇʀᴠᴇʀ Sᴛᴀᴛs', callback_data='server')],
-        [InlineKeyboardButton(text='🌻Uᴘᴅᴀᴛᴇs', url='https://t.me/iam_daxx'), InlineKeyboardButton(text='🌨️Aʙᴏᴜᴛ', callback_data='about')],
-        [InlineKeyboardButton(text='❄️Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/iam_daxx')]
+        [InlineKeyboardButton(text='🌷 Hᴇʟᴘ 🌷', callback_data='help'), InlineKeyboardButton(text='🌷 Sᴇʀᴠᴇʀ Sᴛᴀᴛs 🌷', callback_data='server')],
+        [InlineKeyboardButton(text='🌷 Uᴘᴅᴀᴛᴇs 🌷', url='https://t.me/BRANDED_PAID_CC'), InlineKeyboardButton(text='🌷 Aʙᴏᴜᴛ 🌷', callback_data='about')],
+        [InlineKeyboardButton(text='🌷 Dᴇᴠᴇʟᴏᴘᴇʀ 🌷', url='https://t.me/BRANDEDKING82')]
         ]
 
     await message.reply_text(text=Txt.START_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(Btn))
@@ -21,5 +21,5 @@ async def handle_start(bot:Client, message:Message):
 #Restart to cancell all process 
 @Client.on_message(filters.private & filters.command("restart") & filters.user(Config.SUDO))
 async def restart_bot(b, m):
-    await m.reply_text("🔄__Rᴇꜱᴛᴀʀᴛɪɴɢ.....__")
+    await m.reply_text("💥__Rᴇꜱᴛᴀʀᴛɪɴɢ.....__")
     os.execl(sys.executable, sys.executable, *sys.argv)
